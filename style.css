@@ -116,6 +116,7 @@ header{
   font-size: 15px;
 }
 .projectBuiltWith{
+    margin-bottom: 24px;
     font-size: 13px;
     line-height: 17px;
     color: #606060;
