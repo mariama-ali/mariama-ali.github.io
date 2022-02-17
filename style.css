@@ -107,7 +107,7 @@ header{
     height: 169px;
 }
 .projectDesc{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
 }
 .a-details{
@@ -116,7 +116,7 @@ header{
   font-size: 15px;
 }
 .projectBuiltWith{
-    font-size: 14px;
+    font-size: 13px;
     line-height: 17px;
     color: #606060;
 }
@@ -137,11 +137,12 @@ img{
 }
 .contact-about{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 #form {
     position: relative;
-    width: 500px;
+    width: 800px;
     margin: 50px auto 100px auto;
 }
  
