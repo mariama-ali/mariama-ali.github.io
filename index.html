@@ -154,21 +154,6 @@
     </footer>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "mariama.alii98@gmail.com",
-                Password: "maxqjiydpgahtbnl",
-                To: 'mariamaalii98@gmail.com',
-                From: document.getElementById("email").value,
-                Subject: "New Contact From Portfolio",
-                Body: "Name: " + document.getElementById("name").value
-                    + "<br> Email: " + document.getElementById("email").value
-                    + "<br> Message: " + document.getElementById("message").value
-            }).then(
-                message => alert(message)
-            );
-        }
     </script>
 </body>
 
