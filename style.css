@@ -80,8 +80,8 @@ li {
   padding: 0 12px;
 }
 
-.text--orange {
-  color: #cf8f17;
+.text--purple {
+  color: #6b0663;;
 }
 
 section {
@@ -120,7 +120,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-  background-color: #6b0663;;
+  background-color: #6b0663;
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
