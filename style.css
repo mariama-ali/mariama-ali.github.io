@@ -84,8 +84,8 @@ li {
   color: #cf8f17;
 }
 
-section:nth-child(even) {
-  background-color: #f8f8f8;
+section {
+  background-color: rgb(248, 241, 231);
 }
 
 .section__title {
@@ -146,8 +146,6 @@ nav {
   flex-direction: column;
   font-family: "DM Sans", sans-serif;
 }
-
-
 .about-me__info {
   margin-top: 250px;
   letter-spacing: -0.03em;
@@ -171,7 +169,7 @@ nav {
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
-  color: #606060;
+  color: #6b0663;
 }
 .socials {
   margin-top: 24px;
@@ -182,6 +180,10 @@ nav {
 }
 
 .about-me__info--title {
+  margin-bottom: 16px;
+  animation: fade-up 650ms 400ms backwards;
+}
+.about-me__info--subtitle {
   margin-bottom: 16px;
   animation: fade-up 650ms 400ms backwards;
 }
@@ -443,14 +445,11 @@ footer {
     height: 68px;
   }
 
-  h1 {
-    font-size: 28px;
-  }
-  .about-me__info{
-    margin-left: 3rem;
+  .about-me__info--title{
+    font-size: 48px;
   }
   .about-me__info--para {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .language {
