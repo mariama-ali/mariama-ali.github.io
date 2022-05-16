@@ -295,6 +295,8 @@ nav {
 
 .project {
   margin-bottom: 135px;
+  display: flex;
+  flex-wrap: wrap;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -478,7 +480,7 @@ footer {
   .nav__link:not(:last-child) {
     display: none;
   }
-
+ 
   .project__wrapper {
     border-radius: 0;
   }
